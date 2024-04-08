@@ -11,7 +11,12 @@ Files are the following:
 
 -"Summary_results_toGitHub.xlsx" contains all results concerning executed poisoning attacks.
 
--vulcot.sql (divided in 8 files because the total size is 1.57GB-encrypted until acceptance of the paper) contains tables with data used in the proposal related to SARD and Diversevul datasets. In particular, the following tables and contents are included:
+-vulcot.sql contains tables with data used in the proposal related to SARD and Diversevul datasets - but It will be released after acceptance. An excerpt is included in the following files:
+
+
+
+
+
 
  -codesard/codediversevul: contain the code of each sample and its identifier.
  
