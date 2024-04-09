@@ -1,0 +1,13 @@
+CWEID,description
+1021,-
+113,-
+116,-
+117,"Improper Output Neutralization for Logs"
+118,"Incorrect Access of Indexable Resource ('Range Error')"
+1187,-
+119,"Improper Restriction of Operations within the Bounds of a Memory Buffer"
+120,"Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+121,"Stack-based Buffer Overflow"
+122,"Heap-based Buffer Overflow"
+123,"Write-what-where Condition"
+124,"Buffer Underwrite ('Buffer Underflow')"
