@@ -11,7 +11,7 @@ Files are the following (a reduced version is provided until aceptance):
 
 -"Summary_results_toGitHub.xlsx" contains all results concerning executed poisoning attacks.
 
--vulcot.sql contains tables with data used in the proposal related to SARD and Diversevul datasets - Until acceptance, some excel files with data of some of the tables are provided:
+-vulcot.sql contains tables with data used in the proposal related to SARD and Diversevul datasets - Until acceptance, some csv files with data of some of the tables are provided:
  
     -codesard/codediversevul: contain the code of each sample and its identifier.
     -sard/diversevul: contain the identifier of each sample, the state (bad or good depending on being vulnerable or not) and the linked CWE (some samples may contain more than one CWE).
