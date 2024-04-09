@@ -1,0 +1,33 @@
+SVM
+CWE,mean_precision_score MN,mean_precision_score STD,mean_precision_score MN+STD,mean_recall_score MN,mean_recall_score STD,mean_recall_score MN+STD,mean_f1_score MN,mean_f1_score STD,mean_f1_score MN+STD,mean_accuracy_score MN,mean_accuracy_score STD,mean_accuracy_score MN+STD,TN MN,TN STD,TN MN+STD,TP MN,TP STD,TP MN+STD,FN MN,FN STD,FN MN+STD,FP MN,FP STD,FP MN+STD,matthews_corrcoef MN,matthews_corrcoef STD,matthews_corrcoef MN+STD
+22,0.99,0.00,0.99,0.99,0.00,0.99,0.99,0.00,0.99,0.99,0.00,0.99,544.26,1.91,546.17,533.83,0.98,534.82,5.00,0.55,5.55,4.07,1.58,5.65,0.99,0.00,0.99
+89,0.99,0.00,0.99,0.96,0.00,0.97,0.98,0.00,0.98,0.98,0.00,0.98,4911.00,12.92,4923.92,4607.91,15.81,4623.73,158.75,11.53,170.28,45.66,10.88,56.55,0.95,0.00,0.96
+78,0.99,0.00,1.00,0.98,0.00,0.98,0.98,0.00,0.99,0.98,0.00,0.99,495.89,0.68,496.57,482.02,1.55,483.56,8.82,1.98,10.80,2.44,0.42,2.86,0.97,0.00,0.98
+KNN
+CWE,KNN,mean_precision_score MN,mean_precision_score STD,mean_precision_score MN+STD,mean_recall_score MN,mean_recall_score STD,mean_recall_score MN+STD,mean_f1_score MN,mean_f1_score STD,mean_f1_score MN+STD,mean_accuracy_score MN,mean_accuracy_score STD,mean_accuracy_score MN+STD,TN MN,TN STD,TN MN+STD,TP MN,TP STD,TP MN+STD,FN MN,FN STD,FN MN+STD,FP MN,FP STD,FP MN+STD,matthews_corrcoef MN,matthews_corrcoef STD,matthews_corrcoef MN+STD
+22,3.0,0.99,0.00,1.00,0.99,0.00,0.99,0.99,0.00,0.99,0.99,0.00,0.99,545.33,0.62,545.95,533.09,1.00,534.09,5.74,0.53,6.27,3.00,0.85,3.85,0.98,0.00,0.99
+22,9.0,0.99,0.00,0.99,0.98,0.00,0.98,0.99,0.00,0.99,0.99,0.00,0.99,545.83,0.85,546.68,528.24,1.47,529.72,10.59,1.02,11.61,2.50,0.41,2.91,0.98,0.00,0.98
+22,15.0,0.99,0.00,1.00,0.98,0.00,0.98,0.98,0.00,0.99,0.99,0.00,0.99,546.17,0.62,546.79,527.44,1.22,528.66,11.39,0.75,12.14,2.17,0.24,2.40,0.97,0.00,0.98
+89,3.0,0.98,0.00,0.98,0.97,0.00,0.97,0.98,0.00,0.98,0.98,0.00,0.98,4859.00,6.08,4865.09,4648.61,7.21,4655.82,118.05,2.25,120.30,97.66,3.55,101.21,0.95,0.00,0.96
+DNN
+CWE,mean_precision_score MN,mean_precision_score STD,mean_precision_score MN+STD,mean_recall_score MN,mean_recall_score STD,mean_recall_score MN+STD,mean_f1_score MN,mean_f1_score STD,mean_f1_score MN+STD,mean_accuracy_score MN,mean_accuracy_score STD,mean_accuracy_score MN+STD,TN MN,TN STD,TN MN+STD,TP MN,TP STD,TP MN+STD,FN MN,FN STD,FN MN+STD,FP MN,FP STD,FP MN+STD,matthews_corrcoef MN,matthews_corrcoef STD,matthews_corrcoef MN+STD
+22,0.85,0.03,0.88,0.86,0.04,0.91,0.83,0.03,0.86,0.82,0.03,0.85,437.80,32.31,470.11,465.48,22.03,487.51,73.35,21.62,94.97,110.54,32.73,143.27,0.69,0.04,0.73
+89,0.93,0.00,0.94,0.91,0.01,0.92,0.92,0.00,0.92,0.92,0.00,0.93,4620.70,23.05,4643.75,4321.87,36.02,4357.89,444.79,32.57,477.36,335.97,26.31,362.28,0.84,0.00,0.84
+RF
+CWE,ne,mean_precision_score MN,mean_precision_score STD,mean_precision_score MN+STD,mean_recall_score MN,mean_recall_score STD,mean_recall_score MN+STD,mean_f1_score MN,mean_f1_score STD,mean_f1_score MN+STD,mean_accuracy_score MN,mean_accuracy_score STD,mean_accuracy_score MN+STD,TN MN,TN STD,TN MN+STD,TP MN,TP STD,TP MN+STD,FN MN,FN STD,FN MN+STD,FP MN,FP STD,FP MN+STD,matthews_corrcoef MN,matthews_corrcoef STD,matthews_corrcoef MN+STD
+22,5.0,0.99,0.02,1.01,0.97,0.02,0.99,0.97,0.01,0.98,0.97,0.01,0.98,522.37,13.43,535.80,529.32,0.45,529.77,9.52,0.10,9.62,25.96,13.12,39.09,0.94,0.02,0.96
+22,50.0,1.00,0.00,1.00,0.97,0.02,1.00,0.98,0.00,0.99,0.98,0.00,0.99,541.69,0.91,542.59,529.99,0.50,530.49,8.85,0.95,9.80,6.65,1.04,7.69,0.97,0.00,0.97
+22,100.0,1.00,0.00,1.00,0.97,0.02,0.99,0.98,0.00,0.98,0.98,0.00,0.98,540.15,1.18,541.33,529.81,1.86,531.67,9.02,2.16,11.17,8.19,0.89,9.08,0.96,0.00,0.97
+22,500.0,1.00,0.00,1.00,0.97,0.02,0.99,0.99,0.00,0.99,0.99,0.00,0.99,543.24,1.38,544.62,530.05,0.86,530.92,8.78,1.25,10.03,5.09,1.61,6.70,0.97,0.00,0.98
+89,5.0,1.00,0.00,1.00,0.99,0.01,1.00,0.98,0.00,0.98,0.98,0.00,0.98,4847.52,28.94,4876.46,4682.35,18.88,4701.23,84.32,13.84,98.16,109.15,31.82,140.97,0.96,0.00,0.97
+89,50.0,1.00,0.00,1.00,0.99,0.01,1.00,0.99,0.00,0.99,0.99,0.00,0.99,4925.03,4.07,4929.10,4692.72,15.73,4708.45,73.94,10.56,84.50,31.63,6.97,38.60,0.98,0.00,0.98
+MLP
+CWE,HLnum,valueHL,mean_precision_score MN,mean_precision_score STD,mean_precision_score MN+STD,mean_recall_score MN,mean_recall_score STD,mean_recall_score MN+STD,mean_f1_score MN,mean_f1_score STD,mean_f1_score MN+STD,mean_accuracy_score MN,mean_accuracy_score STD,mean_accuracy_score MN+STD,TN MN,TN STD,TN MN+STD,TP MN,TP STD,TP MN+STD,FN MN,FN STD,FN MN+STD,FP MN,FP STD,FP MN+STD,matthews_corrcoef MN,matthews_corrcoef STD,matthews_corrcoef MN+STD
+22,1.0,5.0,0.95,0.01,0.96,0.99,0.00,0.99,0.97,0.01,0.98,0.97,0.01,0.98,519.89,10.71,530.60,533.26,1.45,534.71,5.58,1.29,6.86,28.45,10.45,38.90,0.94,0.01,0.95
+22,1.0,50.0,0.95,0.00,0.96,0.99,0.00,0.99,0.97,0.00,0.97,0.97,0.00,0.97,521.69,3.87,525.56,533.78,1.31,535.09,5.05,1.02,6.08,26.64,3.43,30.08,0.94,0.00,0.95
+22,1.0,100.0,0.94,0.01,0.95,0.99,0.00,0.99,0.96,0.00,0.97,0.96,0.00,0.96,508.78,7.90,516.68,533.83,1.84,535.67,5.00,1.54,6.54,39.55,7.45,47.00,0.92,0.01,0.94
+22,1.0,150.0,0.94,0.01,0.95,0.99,0.00,0.99,0.96,0.00,0.96,0.95,0.01,0.96,506.28,8.53,514.81,533.89,1.61,535.50,4.95,1.34,6.29,42.05,8.15,50.20,0.92,0.02,0.94
+22,2.0,5.0,0.97,0.00,0.98,0.99,0.00,0.99,0.98,0.00,0.98,0.98,0.00,0.98,532.52,5.11,537.63,531.74,2.43,534.17,7.09,2.45,9.54,15.82,4.73,20.54,0.96,0.00,0.96
+22,2.0,50.0,0.94,0.01,0.95,0.99,0.00,0.99,0.96,0.00,0.96,0.95,0.01,0.96,513.71,8.50,522.21,531.70,2.07,533.77,7.13,2.02,9.15,34.63,8.16,42.79,0.93,0.01,0.94
+22,2.0,100.0,0.94,0.00,0.95,0.99,0.00,0.99,0.96,0.00,0.97,0.96,0.01,0.97,512.33,5.33,517.67,533.56,1.18,534.74,5.28,1.19,6.47,36.00,4.89,40.89,0.93,0.01,0.94
+
