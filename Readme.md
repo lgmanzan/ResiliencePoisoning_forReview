@@ -11,19 +11,10 @@ Files are the following (a reduced version is provided until aceptance):
 
 -"Summary_results_toGitHub.xlsx" contains all results concerning executed poisoning attacks.
 
--vulcot.sql contains tables with data used in the proposal related to SARD and Diversevul datasets - but It will be released after acceptance. An excerpt is included in the following files:
-
-
-
-
-
-
- -codesard/codediversevul: contain the code of each sample and its identifier.
+-vulcot.sql contains tables with data used in the proposal related to SARD and Diversevul datasets - Until acceptance, some excel files with data of some of the tables are provided:
  
- -sard/diversevul: contain the identifier of each sample, the state (bad or good depending on being vulnerable or not) and the linked CWE (some samples may contain more than one CWE).
- 
- -metricssard/metricsdiversevul:contain the identifier of each sample, the programing language and code metrics, namely, entropy, number of 'for', 'if' and 'while', number of lines of code and CCN.
- 
- -tokenssard/tokensdiversevul: contain the identifier of each sample, the programing language and the computed tokens separated by **** to simplify their later processing.
- 
- -cwe: contains the existing CWE and their description.
+    -codesard/codediversevul: contain the code of each sample and its identifier.
+    -sard/diversevul: contain the identifier of each sample, the state (bad or good depending on being vulnerable or not) and the linked CWE (some samples may contain more than one CWE).
+    -metricssard/metricsdiversevul:contain the identifier of each sample, the programing language and code metrics, namely, entropy, number of 'for', 'if' and 'while', number of lines of code and CCN.
+    -tokenssard/tokensdiversevul: contain the identifier of each sample, the programing language and the computed tokens separated by **** to simplify their later processing.
+    -cwe: contains the existing CWE and their description.
