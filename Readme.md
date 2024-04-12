@@ -11,6 +11,8 @@ Files are the following (a reduced version is provided until aceptance):
 
 -"Summary_results_toGitHub.xlsx" contains all results concerning executed poisoning attacks.
 
+-A .py file containing the general working process of AI algorithms, where MLP algorithm is used as an example.
+
 -vulcot.sql contains tables with data used in the proposal related to SARD and Diversevul datasets - until acceptance, some csv files with data of some of the tables are provided:
  
     -codesard/codediversevul: contain the code of each sample and its identifier.
