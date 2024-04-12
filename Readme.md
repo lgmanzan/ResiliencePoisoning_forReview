@@ -1,11 +1,11 @@
 # Vulnerability detection under poisoning attacks.
 Lorena González-Manzano and Joaquin Garcia-Alfaro
 
-(Universiad Carlos III de Madrid/ SAMOVAR, Télécom SudParis, Institut Polytechnique de Paris, Palaiseau, 91120, France)
+(Universidad Carlos III de Madrid/ SAMOVAR, Télécom SudParis, Institut Polytechnique de Paris, Palaiseau, 91120, France)
 
 This repository contains used data (namely computed code metrics and tokens) and complete results of the paper "Vulnerability detection under poisoning attacks. Lorena González-Manzano and Joaquin Garcia-Alfaro (submitted for evaluation)".
 
-Files are the following (a reduced version is provided until aceptance):
+Files are the following (a reduced version is provided until acceptance):
 
 -There are 3 .csv files (BaselineC_toGitHub/ BaselineCSHARP_toGitHub/ BaselinePHP_toGitHub) which contain baseline results of the use of VulCoT.
 
