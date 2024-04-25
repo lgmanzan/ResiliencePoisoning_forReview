@@ -6,11 +6,17 @@ Lorena González-Manzano and Joaquin Garcia-Alfaro
 This repository contains used data (namely computed code metrics and tokens) and complete results of the paper "Vulnerability detection under poisoning attacks. Lorena González-Manzano and Joaquin Garcia-Alfaro (submitted for evaluation)".
 
 The metrics provided in results are the following:
+
     • Accuracy (acc): is a measure of the correct predictions of the model and it is the most common metric.
+    
     • Precision (pre): provides the number of positive predictions well made. It is specially relevant in this proposal because a higher value minimizes FP.
+    
     • Recall (rec): provides the number of positives well predicted by the model.
+    
     • F1 measure (F1): refers to the harmonic mean of precision and recall, looking for the maximization of both vales in the best case.
+    
     • Confusion matrix: in involves the amount of false positives (FP), negatives (FN), true positives (TP) and negatives (TN). In this case, as bad samples are labelled with 0 and good ones with 1 (recall Section VII-A), FP are the most relevant because it means that a vulnerability is missed, while FN affect usability.
+    
     • Matthews Correlation Coefficient (MCC): is a measure of the quality of binary classification and produces a high score (+1 to −1) only if the prediction obtained good results in all of the four confusion matrix categories.
     
 Files are the following (a reduced version is provided until acceptance):
