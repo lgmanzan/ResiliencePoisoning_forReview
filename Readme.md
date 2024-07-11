@@ -1,9 +1,9 @@
-# Vulnerability detection under poisoning attacks through code and token features.
+# On the resilience of traditional AI-models towards poisoning attacks.
 Lorena González-Manzano and Joaquin Garcia-Alfaro
 
 (Universidad Carlos III de Madrid/ SAMOVAR, Télécom SudParis, Institut Polytechnique de Paris, Palaiseau, 91120, France)
 
-This repository contains used data (namely computed code metrics and tokens) and complete results of the paper "Vulnerability detection under poisoning attacks. Lorena González-Manzano and Joaquin Garcia-Alfaro (submitted for evaluation)".
+This repository contains used data (namely computed code metrics and tokens) and complete results of the paper "On the resilience of traditional AI-models towards poisoning attacks. Lorena González-Manzano and Joaquin Garcia-Alfaro (submitted for evaluation)".
 
 The metrics provided in results are the following:
 
